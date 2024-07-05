@@ -1,6 +1,6 @@
 from flask import Flask, Blueprint, request, jsonify
 from flask_restful import Api
-from flask_cors import CORS
+# from flask_cors import CORS
 from .resources import BookResource, BookListResource
 from .models import db, User, Book, Transaction
 from flask_login import login_user, logout_user, login_required, current_user

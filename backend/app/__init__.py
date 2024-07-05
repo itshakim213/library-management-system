@@ -24,7 +24,8 @@ def create_app():
 
 @login_manager.user_loader
 def load_user(user_id):
-    from .models import User  # Import here to avoid circular import
+    # I imported the user model here to avoid circular import
+    from .models import User  
     return User.query.get(int(user_id))
 
 login_manager.login_view = 'api.login'
