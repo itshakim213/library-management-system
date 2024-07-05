@@ -6,9 +6,9 @@ The Library Management System (LMS) is a comprehensive backend system developed 
 
 ## Features
 - User Registration and Login
-- Role-based Access Control (Admin, Librarian, Member)
+- Role-based Access Control (Admin, Librarian, Member & Guest)
 - Book Management (Add, View, Update, Delete)
-- Transaction Management (Request, Approve, Return)
+- Transaction Management (Request, Approve, Return books)
 
 ## Technologies Used
 - **Backend:** Flask, Flask-RESTful, Flask-Cors, Flask-Login, Flask-Migrate, Flask-SQLAlchemy
